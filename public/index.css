@@ -1,0 +1,269 @@
+.message-block {
+  min-height: 70px;
+  width: 96%;
+  margin: 7px;
+  margin-left: 2%;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 10px; }
+  .message-block .text-block {
+    padding-left: 60px;
+    margin-top: 5px; }
+  .message-block .username-block {
+    padding-left: 60px;
+    color: grey; }
+  .message-block .block-avatar {
+    position: absolute;
+    width: 45px;
+    height: 50px;
+    left: 5px;
+    top: 10px;
+    border-radius: 90px/100px; }
+
+.create_chat {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px/60px;
+  background: darkgreen;
+  right: calc(50% - 330px);
+  bottom: 20px; }
+
+.block-avatar {
+  background-size: cover;
+  background-position: center; }
+
+.create-chat {
+  width: 25px;
+  height: 25px;
+  background: grey;
+  position: absolute;
+  right: 10px;
+  top: 5px; }
+
+.delete_chat {
+  width: 25px;
+  height: 25px;
+  background: grey;
+  position: absolute;
+  right: 10px;
+  top: 5px; }
+
+.redact-message {
+  width: 25px;
+  height: 25px;
+  background: orange;
+  position: absolute;
+  right: 35px;
+  top: 5px; }
+
+.delete-message {
+  width: 25px;
+  height: 25px;
+  background: darkred;
+  position: absolute;
+  right: 5px;
+  top: 5px; }
+
+.to-profile {
+  position: absolute;
+  left: 30px;
+  top: 5px;
+  width: 60px;
+  height: 40px;
+  background: grey;
+  cursor: pointer; }
+
+.burger-button {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  background: grey;
+  cursor: pointer;
+  z-index: 9;
+  overflow: hidden; }
+  .burger-button .menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 150px;
+    background: white;
+    border: 1px solid black; }
+  .burger-button .menu > div {
+    width: calc(100% - 30px);
+    padding-left: 35px;
+    height: 30px;
+    line-height: 30px;
+    position: relative; }
+    .burger-button .menu > div .icon {
+      position: absolute;
+      left: 5px;
+      top: 4px;
+      width: 22px;
+      height: 22px;
+      background: grey; }
+
+.active {
+  overflow: visible !important; }
+
+.block-content {
+  width: 700px;
+  height: 1500px;
+  margin-left: calc(50% - 351px);
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+  .block-content .search-users .block-user {
+    position: relative;
+    width: 80%;
+    height: 70px;
+    margin-top: 7px;
+    margin-left: 1%;
+    cursor: pointer; }
+    .block-content .search-users .block-user .block-avatar {
+      position: absolute;
+      width: 45px;
+      height: 50px;
+      left: 5px;
+      top: 10px;
+      border-radius: 90px/100px; }
+    .block-content .search-users .block-user .block-username {
+      position: absolute;
+      left: 60px;
+      top: 25px;
+      font-size: 18px; }
+  .block-content .head {
+    width: 100%;
+    height: 50px;
+    background: #f0f0f0;
+    position: relative; }
+    .block-content .head .text {
+      width: 150px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      line-height: 50px;
+      text-align: 23px; }
+  .block-content .form input {
+    width: 94%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4px;
+    height: 30px; }
+  .block-content .form input[type='text'] {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(30, 30, 30, 0.3); }
+  .block-content .form input[type='submit'] {
+    width: 46%;
+    margin-top: 14px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 60px/60px;
+    cursor: pointer; }
+  .block-content .block-profile {
+    width: 100%;
+    min-height: 150px;
+    border-bottom: 1px solid black; }
+    .block-content .block-profile .block-avatar {
+      width: 60px;
+      height: 72px;
+      margin-left: 15px;
+      margin-top: 25px;
+      border-radius: 60px/80px;
+      float: left; }
+    .block-content .block-profile .block-username {
+      margin-left: 10px;
+      margin-top: 5px;
+      float: left; }
+    .block-content .block-profile .change-avatar {
+      margin-left: 15px;
+      padding-top: 10px;
+      clear: both; }
+  .block-content .chat_view_block {
+    height: 110px;
+    width: 90%;
+    margin-left: calc(5% - 2px);
+    margin-top: 9px;
+    margin-bottom: 9px;
+    border: 1px solid black;
+    position: relative; }
+    .block-content .chat_view_block .block-last-message {
+      height: 70px;
+      width: 96%;
+      left: 2%;
+      bottom: 2px;
+      position: absolute; }
+      .block-content .chat_view_block .block-last-message .block-username {
+        position: absolute;
+        width: calc(100% - 60px);
+        height: 20px;
+        right: 0;
+        top: 0; }
+      .block-content .chat_view_block .block-last-message .block-text {
+        position: absolute;
+        width: calc(100% - 60px);
+        height: calc(100% - 20px);
+        right: 0;
+        bottom: 0; }
+      .block-content .chat_view_block .block-last-message .block-avatar {
+        position: absolute;
+        width: 45px;
+        height: 50px;
+        left: 5px;
+        top: 10px;
+        border-radius: 90px/100px; }
+    .block-content .chat_view_block .area-click {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; }
+    .block-content .chat_view_block .chat_name {
+      width: 100%;
+      height: 30px;
+      text-align: center;
+      line-height: 30px; }
+  .block-content .form_add_chat, .block-content .form-redact {
+    width: 100%;
+    height: 70px;
+    position: relative; }
+    .block-content .form_add_chat .block-avatar, .block-content .form-redact .block-avatar {
+      width: 45px;
+      height: 50px;
+      margin-left: 5px;
+      margin-top: 10px;
+      border-radius: 90px/100px;
+      float: left; }
+    .block-content .form_add_chat textarea, .block-content .form-redact textarea {
+      height: 90%;
+      width: calc(100% - 134px);
+      margin-left: 8px; }
+    .block-content .form_add_chat input[type='submit'], .block-content .form-redact input[type='submit'] {
+      width: 70px;
+      height: 100%;
+      background: darkred;
+      float: right;
+      border: none; }
+
+.form-redact {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: calc(100% - 65px) !important;
+  padding-left: 60px;
+  height: 60px; }
+  .form-redact textarea {
+    width: calc(100% - 84px) !important; }
+
+.block-count {
+  position: absolute;
+  bottom: 15px;
+  right: 10px; }

@@ -1,0 +1,54 @@
+.message-block {
+  height: 60px;
+  width: 400px;
+  border: 1px solid black;
+  position: relative; }
+
+.create_chat {
+  border: 1px solid green; }
+
+.block-user {
+  height: 60px;
+  width: 400px;
+  border: 1px solid black;
+  position: relative; }
+
+.create-chat {
+  width: 25px;
+  height: 25px;
+  background: grey;
+  position: absolute;
+  right: 10px;
+  top: 5px; }
+
+.chat_view_block {
+  height: 60px;
+  width: 400px;
+  border: 1px solid black;
+  position: relative; }
+
+.delete_chat {
+  width: 25px;
+  height: 25px;
+  background: grey;
+  position: absolute;
+  right: 10px;
+  top: 5px; }
+
+.redact-message {
+  width: 25px;
+  height: 25px;
+  background: orange;
+  position: absolute;
+  right: 35px;
+  top: 5px; }
+
+.delete-message {
+  width: 25px;
+  height: 25px;
+  background: darkred;
+  position: absolute;
+  right: 5px;
+  top: 5px; }
+
+/*# sourceMappingURL=indes.css.map */
